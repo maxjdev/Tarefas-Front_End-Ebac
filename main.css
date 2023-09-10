@@ -17,6 +17,11 @@ header .container {
     padding: 0 50px;
 }
 
+header img {
+    width: 3%;
+    height: auto;
+}
+
 header ul li {
     display: inline;
 }
@@ -114,4 +119,12 @@ section h2 {
 
 #tecnology .articles article a {
     background-color: #333333;
+}
+
+#entertainment {
+    background-color: #FFA500;
+}
+
+#entertainment .articles article a {
+    background-color: #8B0000;
 }
