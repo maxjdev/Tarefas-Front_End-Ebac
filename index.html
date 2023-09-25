@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício HTML e JS</title>
+    <title>HTML JS</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-    <div class="div">
-        <form action="#">
+    <div class="container">
+        <h1>Reserva de Hotel</h1>
+        <form action="" class="form-container" onsubmit="return validarFormulario()">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <p class="error1"><strong>Escreva seu nome completo</strong></p>
 
-            
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="idade">
+            <p class="error2">Deve ser maior de 18 para fazer uma reserva</p>
 
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
+
+            <label for="pessoas">Quantos hóspedes serão ?</label>
+            <input type="number" name="pessoas" id="pessoas">
+            <p class="error3">O Maximo de pessoas por quarto são 3</p>
+
+            <button class="btn" type="submit">Enviar</button>
         </form>
     </div>
 </body>
