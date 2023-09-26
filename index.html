@@ -9,24 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Reserva de Hotel</h1>
-        <form action="" class="form-container" onsubmit="return validarFormulario()">
-            <label for="nome">Nome: </label>
-            <input type="text" name="nome" id="nome">
-            <p class="error1"><strong>Escreva seu nome completo</strong></p>
+        <h1>Comparator JS</h1>
+        <form action="" id="myForm" class="form-container" onsubmit="return validacaoJs()">
+            <label for="name1">First name</label>
+            <input type="text" name="name1" id="name1">
+            <p class="error1"><strong>Full name</strong></p>
 
-            <label for="idade">Idade: </label>
-            <input type="number" name="idade" id="idade">
-            <p class="error2">Deve ser maior de 18 para fazer uma reserva</p>
+            <label for="age1">First age</label>
+            <input type="number" name="age1" id="age1">
 
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email">
+            <label for="namcomparee2">Second name</label>
+            <input type="text" name="name2" id="name2">
+            <p class="error2"><strong>Full name</strong></p>
 
-            <label for="pessoas">Quantos hóspedes serão ?</label>
-            <input type="number" name="pessoas" id="pessoas">
-            <p class="error3">O Maximo de pessoas por quarto são 3</p>
+            <label for="age2">Second age</label>
+            <input type="number" name="age2" id="age2">
 
-            <button class="btn" type="submit">Enviar</button>
+            <button id="compareButton" class="btn" type="button" onclick="validacaoJs()">Compare</button>
         </form>
     </div>
 </body>
