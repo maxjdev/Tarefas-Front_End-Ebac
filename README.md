@@ -1,1 +1,1 @@
-# Curso_EBAC_FullStack-Java_Modulo-FrontEnd: exercicio_jquery
+# Curso_EBAC_FullStack-Java_Modulo-FrontEnd: exercicio_plugins-jquery
