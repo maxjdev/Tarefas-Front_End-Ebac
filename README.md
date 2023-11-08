@@ -1,1 +1,2 @@
-# curso_ebac_fullstack_java
+# hamburgueria-responsiva
+Projeto de landing page responsiva

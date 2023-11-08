@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Amatic+SC&family=Bungee&family=Cinzel&family=Poppins:ital@1&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap');
+@media (max-width: 640px) {
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-image:url(./images/textura.jpg);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+header h1{
+    font-family: 'Amatic SC', sans-serif;
+}
+
+header .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.head-btn button {
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.10);
+    padding: 2vw;
+}
+
+.head-btn button a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.head-btn button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.sobre {
+   display: flex;
+   align-items: center;
+   margin: 2vh 2vh
+}
+
+.sobre img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.text-sobre {
+    padding: 2%;
+    align-items: center;
+    max-width: 40vw;
+}
+
+.cardapio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+.lanche {
+    width: calc(50% - 5px);
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+}
+
+.lanche picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.lanche .descr {
+    overflow-y: hidden;
+}
+
+.lanche picture img {
+    border-radius: 10px;
+}
+
+.lanche h3 {
+    margin: 2%;
+}
+
+.lanche h4 {
+    margin: 5%;
+}
+
+.lanche button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    border-style: none;
+    padding: 3%;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.lanche button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin: 2vh 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media (min-width: 641px) and (max-width: 1023px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+body {
+    background-image:url(./images/textura.jpg);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 1.5em;
+}
+
+header h1{
+    font-family: 'Amatic SC', sans-serif;
+}
+header .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.head-btn button{
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.10);
+    padding: 1vw;
+}
+
+.head-btn button a {
+text-decoration: none;
+font-weight: bold;
+}
+
+.head-btn button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.sobre img {
+    border-radius: 10px;
+}
+ 
+.text-sobre {
+    padding: 10% 5%;
+    align-items: center;
+    max-width: 40vw;
+    font-size: large;
+}
+.cardapio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+section h2 {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 2vw;
+}
+.lanche {
+    margin: 2vh 2vw;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+}
+.lanche picture {
+    display: flex;
+    padding: 10%;
+}
+.lanche picture img {
+    border-radius: 10px;
+}
+.lanche .descr {
+    overflow-y: hidden;
+}
+.lanche h3 {
+    margin: 2%;
+}
+
+.lanche h4 {
+    margin: 3%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.lanche button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    border-style: none;
+    padding: 3%;
+    font-weight: bolder;
+    font-size: 1.3em;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.lanche button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin: 2vh 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media (min-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        overflow-x: hidden;
+    }
+    body {
+        background-image:url(./images/textura.jpg);
+    }
+    
+    header {
+        background-color: rgba(0, 0, 0, 0.15);
+        font-size: 1.5em;
+    }
+    
+    header h1{
+        font-family: 'Amatic SC', sans-serif;
+    }
+    header .head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+    }
+    
+    .head-btn button{
+        border: none;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.10);
+        padding: 1vw;
+    }
+    
+    .head-btn button a {
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .head-btn button:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .sobre img {
+        border-radius: 10px;
+    }
+     
+    .text-sobre {
+        padding: 10% 5%;
+        align-items: center;
+        max-width: 40vw;
+        font-size: large;
+    }
+    .cardapio {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        margin-top: 1vh;
+    }
+    section h2 {
+        text-align: center;
+        font-family: 'Amatic SC', sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        margin-bottom: 2vw;
+    }
+    .lanche {
+        margin: 2vh 2vw;
+        background-color: rgba(0, 0, 0, 0.10);
+        border-radius: 10px;
+        text-align: center;
+        padding: 2%;
+    }
+    .lanche picture {
+        display: flex;
+        padding: 10%;
+    }
+    .lanche picture img {
+        border-radius: 10px;
+    }
+    .lanche .descr {
+        overflow-y: hidden;
+    }
+    .lanche h3 {
+        margin: 2%;
+    }
+    
+    .lanche h4 {
+        margin: 3%;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    .lanche button {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 6px;
+        border-style: none;
+        padding: 3%;
+        font-weight: bolder;
+        font-size: 1.3em;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-family: 'Amatic SC', sans-serif;
+    }
+    
+    .lanche button:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        margin: 2vh 0;
+    }
+    
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
