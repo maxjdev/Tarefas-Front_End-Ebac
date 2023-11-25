@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="shortcut icon" href="???" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/libs/bootstrap.min.css">
+    <style>
+        .drop2 {
+            margin-top: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="btn-group">
+            <button class="btn btn-primary">
+                Cadastrar
+            </button>
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+            <ul class="dropdown-menu dropdown-menu-primary">
+                <li class="dropdown-item">
+                    <a href="#">New User</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">New Function</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">New Content</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container drop2">
+        <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                Cadastrar
+            </button>
+            <ul class="dropdown-menu dropdown-menu-primary">
+                <li class="dropdown-item">
+                    <a href="#">New User</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">New Function</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">New Content</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./assets/js/lib-bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
