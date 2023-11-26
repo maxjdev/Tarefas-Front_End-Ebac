@@ -14,9 +14,6 @@ nav a {
     margin-left: 10vw;
     font-variant: small-caps;
 }
-.carousel-height {
-    max-height: 50vh;
-}
 .border-rounded {
     border-radius: 8px;
 }
