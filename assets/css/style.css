@@ -1,3 +1,20 @@
-.card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Amatic+SC&family=Bungee&family=Cinzel&family=PT+Serif:ital@1&family=Poppins:ital@1&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap');
+body {
+    background-color: rgb(238, 238, 238);
+}
+header {
+    background-color: rgb(240, 240, 240);
+}
+header h1 {
+    font-family: 'PT Serif', serif;
+}
+.carousel-height {
+    max-height: 50vh;
+}
+.border-rounded {
+    border-radius: 8px;
+}
+.img-rounded {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
