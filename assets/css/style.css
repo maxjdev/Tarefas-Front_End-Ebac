@@ -2,11 +2,17 @@
 body {
     background-color: rgb(238, 238, 238);
 }
-header {
-    background-color: rgb(240, 240, 240);
+.img-max-width {
+    max-width: 5%;
 }
-header h1 {
+header {
+    background-color: rgb(238, 238, 238);
+}
+nav a {
     font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin-left: 10vw;
+    font-variant: small-caps;
 }
 .carousel-height {
     max-height: 50vh;
