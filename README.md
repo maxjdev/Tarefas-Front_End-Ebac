@@ -12,8 +12,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 ### Clone o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
+git clone https://github.com/maxjdev/tarefas_frontend_ebac.git
+cd tarefas_frontend_ebac
 npm install
 ```
 
