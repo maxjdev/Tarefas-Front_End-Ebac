@@ -1,0 +1,87 @@
+// Imports
+@use './config/reset.scss';
+@use './vars/vars.scss';
+@use './mixins/mixins.scss';
+// Main stylesheet
+header {
+    @include mixins.centralize;
+    padding: 2vw 2vh;
+
+    & img {
+        margin-right: 5vw;
+    }
+}
+main {
+    @include mixins.centralize;
+    margin-top: 10vh;
+    & section {
+        text-align: center;
+        & form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 4vh;
+            text-align: center;
+            & label {
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            & input {
+                padding: 1%;
+                border: none;
+                border-bottom: 1px solid #000000;
+            }
+        }
+        & button {
+            border-radius: 8px;
+            padding: 2%;
+            margin-top: 5vh;
+            font-weight: bolder;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: vars.$buttonColor;
+            &:hover {
+                background-color: darken(vars.$buttonColor, 10%);
+            }
+        }
+        & .section-head {
+            @include mixins.centralize;
+            & .icon {
+                margin-right: 2vw;
+                font-size: 3em;
+                text-align: center
+            }
+        }
+    }
+}
+ul {
+    @include mixins.centralize;
+    list-style: none;
+    width: 2vw;
+    width: 100%;
+    & li {
+        display: flex;
+        margin: 5vw;
+
+    }
+}
+// Breakpoint mobile
+@media screen and (max-width: vars.$mobile) {
+    header {
+        & h1 {
+            margin-left: 1vh;
+        }
+    }
+    main {
+        margin-top: 5vh;
+        & .section-head {
+            display: flex;
+            flex-direction: column;
+            & .icon {
+                margin-bottom: 2vh;
+            }
+        }
+    }
+    
+}
