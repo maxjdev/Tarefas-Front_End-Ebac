@@ -1,0 +1,17 @@
+{
+  "name": "tarefas_frontend_ebac",
+  "version": "1.0.0",
+  "description": "<img src=\"https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png\" width=\"150\">",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  }
+}
