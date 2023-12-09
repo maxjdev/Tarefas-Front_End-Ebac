@@ -1,4 +1,7 @@
-# Desenvolvedor Full Stack Java: Front-End - EBAC   
-<img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="150">
+<div align="center">
+  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="150">
+  
+  # Desenvolvedor Full Stack Java: Front-End - EBAC   
 
-## Repositório destinado a entrega dos exercícios do módulo Front-End
+## Projeto: Landing Page SinopCine <a href="#">Visite o site</a>
+</div>
