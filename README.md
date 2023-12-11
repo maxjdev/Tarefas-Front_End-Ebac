@@ -3,5 +3,5 @@
   
   # Desenvolvedor Full Stack Java: Front-End - EBAC   
 
-## Projeto: Landing Page SinopCine <a href="#">Visite o site</a>
+## Projeto: Ajax e Exceptions <a href="#">Visite o site</a>
 </div>
