@@ -3,5 +3,5 @@
   
   # Desenvolvedor Full Stack Java: Front-End - EBAC   
 
-## Projeto: Ajax e Exceptions <a href="#">Visite o site</a>
+## Projeto: Ajax/FetchAPI e Exceptions
 </div>
