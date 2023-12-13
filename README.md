@@ -3,5 +3,5 @@
   
   # Desenvolvedor Full Stack Java: Front-End - EBAC   
 
-## Projeto: POO com JavaScript
+## Projeto: ES6
 </div>
