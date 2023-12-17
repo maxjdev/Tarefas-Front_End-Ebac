@@ -5,4 +5,6 @@
   
   ## Repositório destinado a entrega dos exercícios do módulo Front-End
 
+  ### <i>Agradeço por explorar repositório de exercícios como parte do curso Desenvolvedor FullStack Java na EBAC!</i>
+  ### <i>Caso tenha contribuições, sugestões ou feedback, sinta-se à vontade para abrir uma issue.</i>
 </div>
