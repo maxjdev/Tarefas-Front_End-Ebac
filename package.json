@@ -1,0 +1,15 @@
+{
+  "name": "tarefas-front_end-ebac",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
