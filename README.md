@@ -1,4 +1,9 @@
 <div align="center">
+<img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="100px">
+
+# Full Stack Developer Java: Front-End - EBAC
+
+## Techs presented during the course
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -13,8 +18,8 @@
 ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## Full Stack Developer Java 
 </div>
 
 
@@ -33,8 +38,3 @@ We welcome and appreciate your contributions to this project! Whether you have s
 ## Feedback and Issues
 
 If you have contributions, suggestions, or feedback, feel free to open an issue.
-
-<div align="center">
-  <h2>Full Stack Developer Java: Front-End</h2>
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="100px">
-</div>
